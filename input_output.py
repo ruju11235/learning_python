@@ -7,7 +7,7 @@ while age < 0:
     age = int(input("How old are you? "))
 else:
     print("Have fun being", age)
-    print("Next year you will be", age+1)
+    print("Next year you will be", age + 1)
 
 favc = input("What is your favorite color? ")
 print("My favorite color is green!")
