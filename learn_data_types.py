@@ -17,8 +17,10 @@ sasa = 4
 print(sasa, "is the number of people in my Mama's family.")
 print("Number of family members living in Sigma is", dark + sasa)
 
-print("a:", sasa)
-print("b:", sasa + 10)
-print("c:", sasa)
+print(sasa)
+print(sasa + 10)
+print(sasa)
 sasa = sasa + 10
-print("d:", sasa)
+print(sasa)
+print(sasa + 10)
+print(sasa)
