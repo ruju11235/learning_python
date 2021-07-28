@@ -10,7 +10,11 @@ print("When my Baba Aaji comes, there will be", dark + 1, "people in my house.")
 print("When my Aai Aaji and Aai Aaba come, there will be", dark + 2, "people in my house.")
 
 print(dark)
+print(dark + 10)
+print(dark)
 dark += 1
+print(dark)
+print(dark + 10)
 print(dark)
 
 sasa = 4
