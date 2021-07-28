@@ -1,11 +1,13 @@
+name = input("What is your name? ")
+
 age = int(input("How old are you? "))
 if age < 13:
-    print("child")
+    print(name, "is a child!")
 elif age <= 19:
-    print("teenager")
+    print(name, "is a teenager!")
 elif age <= 64:
-    print("adult")
+    print(name, "is an adult!")
 elif age <= 130:
-    print("senior citizen")
+    print(name, "is a senior citizen!")
 else:
-    print("dead")
+    print(name, "is dead :)")
