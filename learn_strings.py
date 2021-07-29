@@ -17,4 +17,4 @@ word = input("Enter a word. ")
 if word.isalpha():
     print("The word is valid")
 else:
-    print("The word is not vaild.")
+    print("The word is not valid.")
