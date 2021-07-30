@@ -9,4 +9,16 @@ n = start
 while n <= end:
     print(n)
     n = n + 1
+print()
 
+# infinite loop
+# n = start
+# while n <= end:
+#     print(n)
+#     n = n - 1
+
+n = start
+step = int(input("How much would you like to increment by? "))
+while n <= end:
+    print(n)
+    n = n + step
