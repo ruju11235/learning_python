@@ -36,5 +36,7 @@ name = input("Please enter your name: ")
 for x in name:
     if x in ("A", "E", "I", "O", "U", "a", "e", "i", "o", "u"):
         print(x, "vowel")
+    elif x .isdigit():
+        print()
     else:
         print(x, "consonant")
