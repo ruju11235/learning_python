@@ -2,13 +2,21 @@
 # Count the number of vowels and number of consonants in the words.
 
 word = input("Please enter a word: ")
-v = 0
-c = 0
-for l in word:
-    if l in ("A", "E", "I", "O", "U", "a", "e", "i", "o", "u"):
-        v = v + 1
+vowels = 0
+consonants = 0
+numbers = 0
+others = 0
+for l in word.lower():
+    if l in "aeiou":
+        vowels = vowels + 1
+    elif l in "bcdfghjklmnpqrstvwxyz":
+        consonants = consonants + 1
+    elif l in "1234567890":
+        numbers = numbers + 1
     else:
-        c = c + 1
+        others = others + 1
 
-print("Number of vowels:", v)
-print("Number of consonants:", c)
+print("Number of vowels:", vowels)
+print("Number of consonants:", consonants)
+print("Number of numbers:", numbers)
+print("Other characters:", others)
