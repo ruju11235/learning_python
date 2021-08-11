@@ -16,15 +16,15 @@ else:
     print("Next year you will be", age + 1, ":)")
 
 print()
-favc = input("What is your favorite color? ")
-if favc == "green":
+fav_color = input("What is your favorite color? ")
+if fav_color == "green":
     print("My favorite color is also green!")
 else:
     print("My favorite color is green!")
 
 print()
-favf = input("What is your favorite food? ")
-if favf == "ice cream":
+fav_food = input("What is your favorite food? ")
+if fav_food == "ice cream":
     print("My favorite food is also ice cream!")
 else:
     print("My favorite food is ice cream! I can eat however full I am!")
