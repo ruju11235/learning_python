@@ -1,5 +1,5 @@
 name = input("What is your name? ")
-print("Hello,", name, "!")
+print("Hello,", name, ":)")
 
 print()
 age_str = input("How old are you? ")
@@ -12,7 +12,7 @@ while age < 0:
     print("Why are you being mean to my program? Enter a valid value!!!")
     age = int(input("How old are you? "))
 else:
-    print("Have fun being", age, "!!!")
+    print("Have fun being", age, ":)")
     print("Next year you will be", age + 1, ":)")
 
 print()
@@ -28,5 +28,5 @@ if fav_food == "ice cream":
     print("My favorite food is also ice cream!")
 else:
     print("My favorite food is ice cream! I can eat however full I am!")
-print()
+print() 
 print("Bye!")
