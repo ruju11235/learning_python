@@ -28,5 +28,5 @@ if fav_food == "ice cream":
     print("My favorite food is also ice cream!")
 else:
     print("My favorite food is ice cream! I can eat however full I am!")
-print() 
+print()
 print("Bye!")
