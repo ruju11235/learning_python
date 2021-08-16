@@ -28,39 +28,42 @@ print('str.isspace() =', str.isspace())
 print('"  ".isspace() =', "  ".isspace())
 
 print()
-print("testing 'islower' function")
+print("testing 'islower' function:")
 print('"Kiki".islower() = ', "Kiki".islower())
 print('"kiki".islower() = ', "kiki".islower())
 print()
-print("testing 'isupper' function")
+print("testing 'isupper' function:")
 print('"Kiki".isupper() = ', "Kiki".isupper())
 print('"KIKI".isupper() = ', "KIKI".isupper())
 print()
-print("testing 'istitle' function")
+print("testing 'istitle' function:")
 print('str.istitle() = ', str.istitle())
 
 print()
 str = "hello world"
 print(str)
-print("testing 'capitalize' function")
+print("testing 'capitalize' function:")
 print(str.capitalize())
-print("testing 'title' function")
+print("testing 'title' function:")
 print(str.title())
-print("testing 'upper' function")
+
+print("testing 'upper' function:")
 print(str.upper())
 
 print()
 str = "I love Ice Cream."
 print(str)
-print("testing 'swapcase' function")
+print("testing 'swapcase' function:")
 print(str, str.swapcase())
 
+print("testing 'index' and 'rindex' functions:")
 print(str.index("Ice"))
 print(str.index("I"))
 print(str.rindex("I"))
 # The following statements give errors because there is no "!" in the string:
 # print(str.index("!"))
 # print(str.rindex("!"))
+
 
 print("testing 'find' and 'rfind' functions:")
 print(str.find("I"))
