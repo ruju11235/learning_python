@@ -51,8 +51,31 @@ print(str.upper())
 
 print()
 str = "I love Ice Cream."
+print(str)
 print("testing 'swapcase' function")
 print(str, str.swapcase())
+
+print(str.index("Ice"))
+print(str.index("I"))
+print(str.rindex("I"))
+# The following statements give errors because there is no "!" in the string:
+# print(str.index("!"))
+# print(str.rindex("!"))
+
+print(str.find("I"))
+print(str.rfind("I"))
+print(str.find("!"))
+print(str.rfind("!"))
+
+print(str.replace(".", "!"))
+print(str.replace("Ice", "Whipped"))
+print(str.count("I"))
+print(str.count("i"))
+print(str.count("Ice"))
+words = str.split(" ")
+print(words)
+print("-".join(words))
+print("".join(words))
 
 # f1 = "ice "
 # f2 = "cream"
