@@ -82,7 +82,7 @@ print(str.count("i"))
 print(str.count("Ice"))
 
 print()
-print("testing 'split' and 'join' funtions:")
+print("testing 'split' and 'join' functions:")
 words = str.split(" ")
 print(words)
 print("-".join(words))
