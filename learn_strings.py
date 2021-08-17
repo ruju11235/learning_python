@@ -46,7 +46,6 @@ print("testing 'capitalize' function:")
 print(str.capitalize())
 print("testing 'title' function:")
 print(str.title())
-
 print("testing 'upper' function:")
 print(str.upper())
 
@@ -56,6 +55,7 @@ print(str)
 print("testing 'swapcase' function:")
 print(str, str.swapcase())
 
+print()
 print("testing 'index' and 'rindex' functions:")
 print(str.index("Ice"))
 print(str.index("I"))
@@ -64,7 +64,7 @@ print(str.rindex("I"))
 # print(str.index("!"))
 # print(str.rindex("!"))
 
-
+print()
 print("testing 'find' and 'rfind' functions:")
 print(str.find("I"))
 print(str.rfind("I"))
