@@ -17,7 +17,7 @@ vowels = 0
 
 print()
 print("Step 2:")
-print(sentence.count())
+# print(sentence.count())
 
 print()
 print("Step 3:")
@@ -46,3 +46,5 @@ print()
 print("Step 9:")
 print(",".join(words))
 
+print()
+print("Step 10:")
