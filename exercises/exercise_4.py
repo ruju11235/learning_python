@@ -17,7 +17,8 @@ vowels = 0
 
 print()
 print("Step 2:")
-# print(sentence.count())
+ls = sentence.lower()
+print(ls.count("a") + ls.count("e") + ls.count("i") + ls.count("o") + ls.count("u"))
 
 print()
 print("Step 3:")
@@ -41,6 +42,10 @@ print(words)
 
 print()
 print("Step 8:")
+num_words = 0
+for w in words:
+    num_words = num_words + 1
+print(num_words)
 
 print()
 print("Step 9:")
@@ -48,5 +53,6 @@ print(",".join(words))
 
 print()
 print("Step 10:")
-
-# This does not work.
+print(words[0])
+for l in words[0]:
+    print(l)
