@@ -17,8 +17,16 @@ vowels = 0
 
 print()
 print("Step 2:")
+print("- Step 2 using the 'count' function:")
 ls = sentence.lower()
 print(ls.count("a") + ls.count("e") + ls.count("i") + ls.count("o") + ls.count("u"))
+print()
+print("- Step 2 using a loop:")
+num_vowels = 0
+for l in ls:
+    if l in "aeiou":
+        num_vowels = num_vowels + 1
+print(num_vowels)
 
 print()
 print("Step 3:")
