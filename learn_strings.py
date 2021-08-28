@@ -60,7 +60,7 @@ print("testing 'index' and 'rindex' functions:")
 print(str.index("Ice"))
 print(str.index("I"))
 print(str.rindex("I"))
-# The following statements give errors because there is no "!" in the string:
+# The following statements give errors because there is no "!" in the 'str' string:
 # print(str.index("!"))
 # print(str.rindex("!"))
 

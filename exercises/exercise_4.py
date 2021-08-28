@@ -1,4 +1,4 @@
-# Exercise:
+# Exercise 4:
 # 1. Read a sentence from the user.
 # 2. Count how many times letters 'a', 'e', 'i', 'o', 'u' appear in the sentence.
 # Please note that these letters could appear in lower case or upper case. You should still count them.
