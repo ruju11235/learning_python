@@ -88,7 +88,7 @@ print(words)
 print("-".join(words))
 print("".join(words))
 
-# f1 = "ice "
+# f1 = "ice"
 # f2 = "cream"
 # print(f1 + f2)
 #

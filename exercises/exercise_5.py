@@ -10,20 +10,24 @@ num_1 = int(input("Please enter a number: "))
 num_2 = int(input("Please enter another number: "))
 base_number = 1
 operation_count = 0
-while multiplication_count != num_2:
-    base_number = base_number * num_1
-    multiplication_count = multiplication_count + 1
+while operation_count != num_2:
+    if num_2 < 0:
+        base_number = base_number / num_1
+        operation_count = operation_count - 1
+    else:
+        base_number = base_number * num_1
+        operation_count = operation_count + 1
 else:
     print("num_1 to the power num_2 is", base_number)
 print(pow(num_1, num_2))
 
-print()
-sentence = input("Please enter a sentence: ")
-alphabet = input("Please enter a letter: ")
-letter_count = 0
-for w in sentence.lower():
-    print(w)
-    if w == alphabet:
-        letter_count = letter_count + 1
-print()
-print("Alphabet occurrences:", letter_count)
+# print()
+# sentence = input("Please enter a sentence: ")
+# alphabet = input("Please enter a letter: ")
+# letter_count = 0
+# for w in sentence.lower():
+#     print(w)
+#     if w == alphabet:
+#         letter_count = letter_count + 1
+# print()
+# print("Alphabet occurrences:", letter_count)
