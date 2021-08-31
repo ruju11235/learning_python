@@ -9,7 +9,7 @@
 num_1 = int(input("Please enter a number: "))
 num_2 = int(input("Please enter another number: "))
 base_number = 1
-multiplication_count = 0
+operation_count = 0
 while multiplication_count != num_2:
     base_number = base_number * num_1
     multiplication_count = multiplication_count + 1

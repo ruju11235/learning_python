@@ -1,7 +1,9 @@
 name = input("What is your name? ")
 
 age = int(input("How old are you? "))
-if age < 13:
+if age < 0:
+    print(name, "is in the future!")
+elif age < 13:
     print(name, "is a child!")
 elif age <= 19:
     print(name, "is a teenager!")
