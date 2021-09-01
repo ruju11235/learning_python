@@ -8,6 +8,10 @@
 
 num_1 = int(input("Please enter a number: "))
 num_2 = int(input("Please enter another number: "))
+if num_1 == 0 and num_2 < 0:
+    print("This value is undefined!")
+    exit(0)
+
 base_number = 1
 operation_count = 0
 while operation_count != num_2:

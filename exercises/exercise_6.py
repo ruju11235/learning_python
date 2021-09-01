@@ -6,13 +6,22 @@
 
 num_1 = int(input("Please enter a number: "))
 num_2 = int(input("Please enter another number: "))
+if num_1 == 0 and num_2 < 0:
+    print("This value is undefined!")
+    exit(0)
+
+if num_2 >= 0:
+    start, end, step = 1, num_2 + 1, 1
+else:
+    start, end, step = -1, num_2 - 1, -1
 base_number = 1
 operation_count = 0
 
-# for:
-#     if num_2 < 0:
-#         base_number = base_number / num_1
-#         operation_count = operation_count - 1
-#     else:
-#         base_number = base_number * num_1
-#         operation_count = operation_count + 1
+for operation_count in range(start, end, step):
+    if num_2 >= 0:
+        base_number = base_number * num_1
+    else:
+        base_number = base_number / num_1
+else:
+    print("num_1 to the power num_2 is", base_number)
+print(pow(num_1, num_2))
