@@ -89,10 +89,11 @@ print("-".join(words))
 print("".join(words))
 
 # f1 = "ice"
-# f2 = "cream"
-# print(f1 + f2)
+# f2 = " "
+# f3 = "cream"
+# print(f1 + f2 + f3)
 #
-# # age = "ab12cd"
+# age = "ab12cd"
 # age_str = input("Enter your age. ")
 # print(age_str)
 # if age_str.isdigit():
