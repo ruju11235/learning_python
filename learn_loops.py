@@ -1,5 +1,5 @@
-# start = int(input("Give a valid starting value! "))
-# end = int(input("Give a valid ending value! "))
+# start = int(input("Give a starting value: "))
+# end = int(input("Give a ending value: "))
 # while start > end:
 #     print("Stop being mean to my program >:(")
 #     start = int(input("Give a valid starting value! "))

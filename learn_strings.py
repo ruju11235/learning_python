@@ -92,7 +92,7 @@ print("".join(words))
 # f2 = " "
 # f3 = "cream"
 # print(f1 + f2 + f3)
-#
+
 # age = "ab12cd"
 # age_str = input("Enter your age. ")
 # print(age_str)
@@ -100,7 +100,7 @@ print("".join(words))
 #     print("Age is valid.")
 # else:
 #     print("Age should be a number.")
-#
+
 # word = input("Enter a word. ")
 # if word.isalpha():
 #     print("The word is valid")
