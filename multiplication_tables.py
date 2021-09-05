@@ -8,10 +8,12 @@
 # for m in range(range_start, range_end + 1):
 #     print(num_1, "x", m, "=", num_1 * m)
 
-start_num = int(input("Please enter a number to find a multiplication table of: "))
-end_num = int(input("Please enter another number: "))
+print("Multiplication Tables program")
+start_num = int(input("Please enter a number to find a multiplication table of "))
+end_num = int(input("Please enter another number: "
+                    "(this number will fins all the multiplication tables from the first number to this number): "))
 start_multiple = int(input("Please which number to start the multiples from: "))
-end_multiple = int(input("Please which number to end the multiples: "))
+end_multiple = int(input("Please which number to end the multiples of the multiplication tables: "))
 
 for m in range(start_num, end_num + 1):
     print()
