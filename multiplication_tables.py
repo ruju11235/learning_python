@@ -1,4 +1,4 @@
-# Program of Multiplication Tables using a 'for loop
+# Program of Multiplication Tables using a 'for' loop
 # - multiples from 0 to 10
 
 num_1 = int(input("Please enter the number to find a multiplication table of: "))
