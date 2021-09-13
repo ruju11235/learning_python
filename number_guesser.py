@@ -9,4 +9,3 @@ num = int(input("Please enter a number for the program to guess: "))
 for g in range(range_start, range_end + 1):
     guess = input("Is the guess lower than, greater than, or equal to the guess? ")
     if guess == "lower than":
-    
