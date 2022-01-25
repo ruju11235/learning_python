@@ -6,9 +6,13 @@
 
 word = input("Please enter a word: ")
 repeat = int(input("Please enter how many times to repeat your word: "))
+count = 0
 
 # exercise with 'while' loop
-# while 
+while count < repeat:
+    print(word)
+    count += 1
 
 # exercise with 'for' loop
+
 
