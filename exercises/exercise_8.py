@@ -8,3 +8,4 @@
 # aaa
 # aaaa
 
+letter = input("Please enter a letter: ")
