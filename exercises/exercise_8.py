@@ -12,6 +12,9 @@ letter = input("Please enter a letter: ")
 num = int(input("Please enter a number: "))
 count = 1
 
+# exercise with a 'while' loop
 while count < num + 1:
     print(letter*count)
     count += 1
+
+# exercise with a 'for' loop
