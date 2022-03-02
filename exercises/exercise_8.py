@@ -9,3 +9,9 @@
 # aaaa
 
 letter = input("Please enter a letter: ")
+num = int(input("Please enter a number: "))
+count = 1
+
+while count < num + 1:
+    print(letter*count)
+    count += 1
