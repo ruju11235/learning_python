@@ -8,3 +8,10 @@
 
 num_1 = int(input("Please enter a number: "))
 num_2 = int(input("Please enter another number: "))
+q = 0
+
+while num_1 >= num_2:
+    num_1 = num_1 - num_2
+    q = q + 1
+print("Quotient:", q)
+print("Remainder:", num_1)
