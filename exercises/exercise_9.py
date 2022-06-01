@@ -10,13 +10,14 @@ num_1 = int(input("Please enter a integer: "))
 num_2 = int(input("Please enter another integer: "))
 q = 0
 
-while num_2 <= 1:
+while num_2 <= 0:
     print("Error!")
     num_1 = int(input("Please enter a integer: "))
     num_2 = int(input("Please enter another integer: "))
-else:
+while num_1 >= num_2:
     num_1 = num_1 - num_2
     q = q + 1
+
 
 print("Quotient:", q)
 print("Remainder:", num_1)
