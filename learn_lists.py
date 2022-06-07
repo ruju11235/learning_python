@@ -11,4 +11,3 @@ lists = numbers + names + colors
 print(lists)
 print(names * 3)
 
-# list indices
